@@ -1,0 +1,50 @@
+In their intro documentation, they give a line to put in the html. Don't put the line in the html. this exposes the chai object to the browser, which allows you to display the results of your tests in the dom. Not what I want.
+
+The tests need to be able to see the code. You make it visible by setting a variable at the top of the test.js file:
+var code = require('../src/js/main.js')
+And you export using module by putting this at the bottom of the javascript file:
+module.exports.myFunction = myFunction
+Not sure exactly how module works
+
+
+Added gulp-webpack, which allows solves some sort of issue with making node type stuff work with browser stuff.
+npm install gulp-webpack -D
+installs it as a dev dependency
+
+Now we only look at one js file, main.js.
+And require all other js from here. 
+For instance, to add jQuery, install it as a node module:
+npm install -S jquery
+(The -S means, uh, something. It seems to put it in the regular dependencies in the package.json.)
+This downloads all of jquery and puts it in the nodemodules directory.
+
+You can see the stuff show up in the package.json:
+"devDependencies": {
+    "chai": "*",
+    "gulp-webpack": "^1.5.0",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+
+Need to configure webpack. Out of the box, it spits out a hashed crazy thing as the builded js file.
+To configure it, pass an object when you call the webpack() function in the gulpfile. The gulpfile build:js task now looks like this:
+gulp.task('build:js', ['test'], function() {
+  return gulp
+    .src('./src/js/main.js')
+    .pipe(webpack(
+      { output: { filename: './js/main.js' },
+        devtool: '#source-map'
+      }))
+    .pipe(gulp.dest('./build'))
+})
+
+We pipe the js through webpack before building the build. 
+You can see the effect of this by visiting the page, then viewing the source js.
+It's now a crazy thing, almost unrecognizable.
+The devtool option maps the crazy build js to the source, so you can find lines in the Chrome devtools when debugging.
+
+## Testing API calls
+Don't run the get in the test itself. Cut and paste some sample data (you can put it in a data folder) and then run your tests against that.
+
