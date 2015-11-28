@@ -29,7 +29,8 @@ alias git commands:
 ## BASH Scripting
 touch helloworld.sh
 
-#!/bin/bash
+
+\#!/bin/bash
 // defines the executables environment
 echo "What is your name?"
 read NAME

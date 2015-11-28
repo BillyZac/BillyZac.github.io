@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Gulp"
+date:   2015-11-16
+categories:
+published: false
+---
+# Using Gulp
 Install gulp in your project folder. cd into your project folder, then:
 $ npm install -D gulp
 
@@ -12,7 +20,7 @@ Then run gulp from the terminal
 
 $ gulp
 
-It should give you something like this: 
+It should give you something like this:
 
 [11:07:18] Using gulpfile ~/Dev/gulp-exercises/01-run/gulpfile.js
 [11:07:18] Starting 'default'...
@@ -46,7 +54,7 @@ gulp.task('default', ['other'], function() {
   console.log('Hey, I\'m a task.')
 })
 
-So when you run 
+So when you run
 
 $gulp
 
@@ -67,7 +75,7 @@ Hey, I'm a task.
 ## Copy js files from ./src to ./build
 
 Make sure you have a src folder in the root of your project. All your 'source' files should be kept here.
-We're going to copy the html files from the source folder to a new folder called 'build'. 
+We're going to copy the html files from the source folder to a new folder called 'build'.
 If the build folder does not yet exist, gulp will create it.
 
 gulp.task('default', function () {
