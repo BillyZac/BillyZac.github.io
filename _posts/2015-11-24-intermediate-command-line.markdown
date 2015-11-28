@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Intermediate command line"
+date:   2015-11-02 21:37:44 -0700
+categories:
+published: false
+---
+# Intermediate command line
 ## Monitoring Your System
 ### ps
 ps -ax | grep Chrome
@@ -44,4 +52,3 @@ echo "{ name: $NAME, age: $AGE, favoritecolor: $COLOR }" > $NAME.json
 
 ### More Bash
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
-
