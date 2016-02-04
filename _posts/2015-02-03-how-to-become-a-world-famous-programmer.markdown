@@ -13,9 +13,10 @@ But here's one thing open source software has over the newspaper of record: when
 
 Let me tell you about a thing that happened yesterday. I was teaching myself Ruby on Rails, reading through the official documentation on their site. And there it was: a typo! Somebody totally forgot to put in an apostrophe! Whaaa! How is this even possible! I mean, this is *the* Ruby on Rails?!?!
 
-But then I remembered, hey, this is Open Source software! I can fix this! :tada:
+But then I remembered, hey, this is Open Source software! I can fix this!
 
 Here's how it works:
+
 - Find the repository for the project on GitHub and fork the repo. ![Fork]({{ site.url }}/assets/fork.png)
 - `git clone` it down to your computer.
 - Make the change on your version.
