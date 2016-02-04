@@ -10,8 +10,8 @@ title: Zac Smith
 email: billyzacsmith@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Zac Smith's blog.
-baseurl: "http://billyzac.github.io/" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://billyzac.github.io/" # the base hostname & protocol for your site
 twitter_username: billyzacsmith
 github_username:  BillyZac
 
