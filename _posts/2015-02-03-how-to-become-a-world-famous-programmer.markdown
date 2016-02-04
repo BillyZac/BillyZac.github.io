@@ -3,7 +3,7 @@ layout: post
 title:  "How To Become A Super Famous Programmer in Seven Minutes, or Making Your First Open Source Contribution"
 date:   2015-02-03 00:00:00 -0700
 categories:
-published: false
+published: true
 ---
 On my bus ride home, I like to zone out and read the New York Times on my phone. But what about all those typos! I mean, how does that even happen? It's the New York frickin' Times!
 
