@@ -9,7 +9,7 @@ On my bus ride home, I like to zone out and read the New York Times on my phone.
 
 The best I can do is send out [a hopelessly ineffectual tweet](https://twitter.com/billyzacsmith/status/693249645124784128).
 
-But here's one thing open source software has over the Paper of Record: when you run across something that's broken, you can actually fix it! For serious! You, little old you, can actually fix the thing that bajillions of people use. Wow!
+But here's one thing open source software has over the newspaper of record: when you run across something that's broken, you can actually fix it! For serious! You, little old you, can actually fix the thing that bajillions of people use. Wow!
 
 Let me tell you about a thing that happened yesterday. I was teaching myself Ruby on Rails, reading through the official documentation on their site. And there it was: a typo! Somebody totally forgot to put in an apostrophe! Whaaa! How is this even possible! I mean, this is *the* Ruby on Rails?!?!
 
