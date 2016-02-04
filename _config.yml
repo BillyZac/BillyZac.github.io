@@ -11,7 +11,7 @@ email: billyzacsmith@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Zac Smith's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://billyzac.github.io/" # the base hostname & protocol for your site
+url: "http://billyzac.github.io" # the base hostname & protocol for your site
 twitter_username: billyzacsmith
 github_username:  BillyZac
 
