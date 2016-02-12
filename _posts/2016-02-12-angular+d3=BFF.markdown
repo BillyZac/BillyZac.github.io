@@ -15,7 +15,7 @@ Wouldn't it be great to just pop an element in the html and have it magically ge
 
 Today, dreams become reality as we take a look at how to use the awesome [D3.js library](https://d3js.org/) in an [Angular](https://angularjs.org/) app.
 
-I tried to think up a really simple example to demonstrate the basic principles in a clear way and I came up with a little bar chart that pulls it's data from an Angular controller. Maybe this won't dazzle the pants off your eyeballs, but hopefully it provides the basic building blocks for more ambitious Angular/D3 projects.
+We're going to work through a really simple example: a little bar chart that pulls it's data from an Angular controller. Maybe this won't dazzle the pants off your eyeballs, but hopefully it provides the basic building blocks for more ambitious Angular/D3 projects.
 
 ## Define the data set
 In our controller, we define the data:
